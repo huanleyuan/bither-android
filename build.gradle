@@ -10,7 +10,7 @@ buildscript {
 //        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'com.android.tools.build:gradle:3.4.2'
     }
 }
 
@@ -30,11 +30,10 @@ subprojects {
 
     android {
         compileSdkVersion 28
-        buildToolsVersion '28.0.2'
 
         defaultConfig {
-            minSdkVersion 9
-            targetSdkVersion 28
+            minSdkVersion 17
+            targetSdkVersion 26
             multiDexEnabled true
         }
 
